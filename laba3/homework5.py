@@ -1,16 +1,16 @@
-def getInput() -> str:
+def getInput():
     return input()
 
 
-def testInput(line: str) -> bool:
+def testInput(line):
     return line.isnumeric()
 
 
-def strToInt(line: str) -> int:
+def strToInt(line):
     return int(line)
 
 
-def printInt(num: int) -> None:
+def printInt(num):
     print(num)
 
 

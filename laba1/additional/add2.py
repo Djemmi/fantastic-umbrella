@@ -1,18 +1,7 @@
-nums = []
-
-
-def solution() -> None:
-    try:
-        add = int(input("Ender number (0 to exit): "))
-        if add == 0:
-            return
-        nums.append(add)
-        print("Max: " + str(max(nums)))
-        print("Min: " + str(min(nums)))
-        solution()
-    except ValueError:
-        print("Invalid value!")
-        solution()
-
-
-solution()
+new_number = input("Ender number (0 to exit): ")
+while new_number != "0":
+    digits_sum = 0
+    for digit in new_number:
+        digits_sum += int(digit)
+    print(digits_sum)
+    new_number = input("Ender number (0 to exit): ")

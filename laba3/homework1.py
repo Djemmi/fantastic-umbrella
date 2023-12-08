@@ -1,21 +1,20 @@
-def getAns(x: int) -> bool:
-    return len(str(x)) == 3 and str(x).find("0") == 2 and x % 2 != 0 and (x % 3 == 0 or x % 5 == 0) and 2 <= x <= 6 and \
-        str(x)[0] == str(x)[1] == str(x)[2]
-
-
-def getAns1(x: int) -> bool:
+# Условие 1
+def getAns1(x):
     return len(str(x)) == 3 and str(x)[-1] == "0" and x > 0
 
 
-def getAns2(x: int) -> bool:
+# Условие 2
+def getAns2(x):
     return x % 2 != 0 and (x % 3 == 0 or x % 5 == 0)
 
 
-def getAns3(x: int) -> bool:
+# Условие 3
+def getAns3(x):
     return 2 <= x <= 6
 
 
-def getAns4(x: int) -> bool:
+# Условие 4
+def getAns4(x):
     return len(str(x)) == 3 and str(x)[0] == str(x)[1] == str(x)[2]
 
 

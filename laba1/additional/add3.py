@@ -1,7 +1,7 @@
 numbers = []
 
 
-def Solution() -> None:
+def solution():
     i = input("Введите число (0 для прерывания): ")
     if i == 0:
         return
@@ -9,8 +9,8 @@ def Solution() -> None:
         numbers.append(int(i))
         print("Максимальное значение:", max(numbers), "\nМинимальное значение:", min(numbers))
     except ValueError:
-        print("Invalid input")
-    Solution()
+        print("Некорректное число!")
+    solution()
 
 
-Solution()
+solution()
