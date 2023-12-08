@@ -1,8 +1,8 @@
 ## fantastic-umbrella
 
-[+] Питерская архитекутра кода
-[+] Куча бесполезных комментариев
-[+] waste-of-tea
-[ ] women
-[ ] grass
-[ ] friends
+- [x] Питерская архитекутра кода
+- [x] Куча бесполезных комментариев
+- [x] waste-of-tea
+- [ ] women
+- [ ] grass
+- [ ] friends
