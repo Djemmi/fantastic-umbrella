@@ -1,8 +1,4 @@
-## fantastic-umbrella
+If you heard something about me, you're a liar.
+She never did anything awesome and not worth noticing her
 
-- [x] Питерская архитекутра кода
-- [x] Куча бесполезных комментариев
-- [x] waste-of-tea
-- [ ] women
-- [ ] grass
-- [ ] friends
+Leave me alone, I have no will to exist anymore
